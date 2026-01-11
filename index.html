@@ -4,34 +4,94 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rakesh Nyayapati | Director of IT</title>
-  <link rel="stylesheet" href="styles.css" />
 
-  <!-- Smooth Scrolling -->
   <style>
-    html {
-      scroll-behavior: smooth;
+    body {
+      margin: 0;
+      font-family: Calibri, Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b, #0f172a);
+      color: #e2e8f0;
+    }
+
+    .frame {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 18px;
+      padding: 40px;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(12px);
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 25px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.6rem;
+      color: #38bdf8;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+
+    h2 {
+      margin-top: 40px;
+      font-size: 1.7rem;
+      color: #38bdf8;
+      border-left: 4px solid #38bdf8;
+      padding-left: 12px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 18px 22px;
+      border-radius: 14px;
+      margin: 18px 0;
+    }
+
+    .card h3 {
+      margin: 0 0 6px 0;
+      font-size: 1.2rem;
+      color: #e2e8f0;
+    }
+
+    .meta {
+      font-size: 0.85rem;
+      color: #94a3b8;
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      color: #94a3b8;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 
 <body>
-  <!-- NAVIGATION BAR -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="nav-logo">Rakesh Nyayapati</div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#leadership">Leadership</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
   <div class="frame">
     <header>
       <h1>Rakesh Nyayapati</h1>
@@ -39,8 +99,146 @@
     </header>
 
     <!-- ABOUT -->
-    <h2 id="about">About</h2>
+    <h2>About</h2>
     <p>
       Director of IT with extensive experience in infrastructure testing, QA, operations, and service delivery across
       global financial and technology environments. Proven leadership at UBS, Cognizant, and HP with a strong focus on
-      reliability, engineering excellence, and scalable systems
+      reliability, engineering excellence, and scalable systems.
+    </p>
+
+    <!-- EXPERIENCE -->
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Director of IT — UBS</h3>
+      <p class="meta">2024 – Present</p>
+      <p>Leading technology strategy, delivery, and operations across critical enterprise platforms.</p>
+    </div>
+
+    <div class="card">
+      <h3>Associate Director of IT — UBS</h3>
+      <p class="meta">2019 – 2024</p>
+      <p>Oversaw QA infrastructure testing and major initiatives including SHA2 migration and Workspace programs.</p>
+    </div>
+
+    <div class="card">
+      <h3>Service Delivery Manager — Cognizant</h3>
+      <p class="meta">2010 – 2019</p>
+      <p>Managed global delivery teams, operations, and client engagements with multiple awards for excellence.</p>
+    </div>
+
+    <div class="card">
+      <h3>Senior Analyst — UBS</h3>
+      <p class="meta">2007 – 2009</p>
+      <p>Supported QA and IT initiatives that contributed to enterprise platform stability and delivery.</p>
+    </div>
+
+    <div class="card">
+      <h3>Quality Assurance Coordinator — HP</h3>
+      <p class="meta">2003 – 2007</p>
+      <p>Led QA coordination and earned recognition as a Most Valuable Partner.</p>
+    </div>
+
+    <!-- EDUCATION -->
+    <h2>Education</h2>
+
+    <div class="card">
+      <h3>University at Buffalo</h3>
+      <p class="meta">MS — Information Technology</p>
+    </div>
+
+    <div class="card">
+      <h3>Amrita Vishwa Vidyapeetham</h3>
+      <p class="meta">MS — Management Information Systems</p>
+    </div>
+
+    <div class="card">
+      <h3>Indira Gandhi National Open University</h3>
+      <p class="meta">PGDCA — Computer Science</p>
+    </div>
+
+    <div class="card">
+      <h3>National Institute of Information Technology</h3>
+      <p class="meta">GNIIT — Computer Science</p>
+    </div>
+
+    <div class="card">
+      <h3>Andhra University</h3>
+      <p class="meta">MS — Inorganic Chemistry</p>
+    </div>
+
+    <div class="card">
+      <h3>Berhampur University</h3>
+      <p class="meta">BS — Chemistry</p>
+    </div>
+
+    <!-- CERTIFICATIONS -->
+    <h2>Certifications</h2>
+
+    <div class="card"><p><strong>Amelia AIOps Overview for Clients</strong> — 2024</p></div>
+    <div class="card"><p><strong>Amelia AIOps Platform Fundamentals</strong> — 2024</p></div>
+    <div class="card"><p><strong>UBS Certified Engineer</strong> — 2022</p></div>
+    <div class="card"><p><strong>Microsoft Azure Fundamentals</strong> — 2021</p></div>
+    <div class="card"><p><strong>Google Kubernetes Engine</strong> — 2020</p></div>
+    <div class="card"><p><strong>Automation Specialist for API</strong> — 2018</p></div>
+    <div class="card"><p><strong>ITIL Service Operation</strong> — 2013</p></div>
+    <div class="card"><p><strong>ITIL 2011 Foundation</strong></p></div>
+    <div class="card"><p><strong>Certified Quality Analyst — HP</strong></p></div>
+    <div class="card"><p><strong>Continuous Delivery & DevOps — UVA</strong></p></div>
+
+    <!-- LEADERSHIP -->
+    <h2>Leadership & Volunteering</h2>
+
+    <div class="card">
+      <h3>Executive Board Member — Toastmasters International</h3>
+      <p class="meta">2024 – Present</p>
+    </div>
+
+    <div class="card">
+      <h3>President — UBS NJ Toastmasters</h3>
+      <p class="meta">2023 – 2024</p>
+      <p>Achieved President’s Distinguished Club Award (10/10 goals).</p>
+    </div>
+
+    <div class="card">
+      <h3>Vice President Education — Toastmasters</h3>
+      <p class="meta">2022 – 2023</p>
+    </div>
+
+    <div class="card">
+      <h3>Vice President Public Relations — Toastmasters</h3>
+      <p class="meta">2021 – 2022</p>
+    </div>
+
+    <!-- PATENTS & PUBLICATIONS -->
+    <h2>Patents & Publications</h2>
+
+    <div class="card">
+      <h3>AI + Blockchain Identity Verification using SVMs</h3>
+      <p class="meta">Patent Application · 2024</p>
+      <a href="https://ijmgr.igrf.co.in/index.php/ijmgr/article/view/16" target="_blank">View Publication</a>
+    </div>
+
+    <div class="card">
+      <h3>Neural Cryptography for Secure Data Transfer</h3>
+      <p class="meta">US Patent US11128441B2 · Granted</p>
+      <a href="https://patents.google.com/patent/US11128441B2/en" target="_blank">View Patent</a>
+    </div>
+
+    <div class="card">
+      <h3>Google Scholar Profile</h3>
+      <p class="meta">Research Impact & Citations</p>
+      <a href="https://scholar.google.com/citations?user=KA8Mti0AAAAJ" target="_blank">View Profile</a>
+    </div>
+
+    <!-- CONTACT AT BOTTOM -->
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:rakeshnyayapati@gmail.com">rakeshnyayapati@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/rakesh-nyayapati" target="_blank">linkedin.com/in/rakesh-nyayapati</a></p>
+
+    <footer>
+      © 2026 Rakesh Nyayapati — All Rights Reserved
+    </footer>
+  </div>
+</body>
+</html>
